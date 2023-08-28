@@ -1,0 +1,125 @@
+; This is free and unencumbered software released into the public domain.
+; Anyone is free to copy, modify, publish, use, compile, sell, or distribute
+; this software, for any purpose, commercial or non-commercial, and by any
+; means.
+; For more information, please refer to UNLICENSE or to <http://unlicense.org>
+
+; This is the default level file for Orange Guy's quest and contains all of
+; the levels which will appear in the game by default.  See doc/levels.txt for
+; information about how the level data is interpreted by the game.
+
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+W W
+WPW
+W W
+W W
+W W
+W W
+W W
+W W
+W WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W W  WWWWW            WWW      WW          WWWW
+W W   WWW              WW       W           WWW
+W W    WW              W                S    WWW
+W W    W           S                    W    W W
+W W                W         WWWWWWWWWWWW      W
+W W           W    W        WW  W              W
+W W          WW    W       W            *WWW WWW
+W W         WWWW WWW       #       WWWWW  W    WWW
+W WW       WW   W   W     WW WW    *             WW
+W  W D  W  W  K   W  WWW WW      WWW     W*WWWWW^WWW
+W  WW WWWWW  WW        WW     WWWW     WWW    W    W
+W                      8      W  W           RW   EW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+;
+W W                   S WWWWWW WWWWW
+W W                   W      WW    W W
+W W                  W        W     W W
+W W                  W                 W
+W W                  W  S              W
+W W                  W WWWWWWWWWW      W
+W W                  W          WWWW  KW
+W W                  W              WWWW
+W W                  WWWWWWWWW         W
+W W                   W       WWW      W
+W W                                    W
+W W                      WWW WWWWWWWWWWW
+W W                  WWWWW       @
+W W                              W
+W W        S                     W
+W        WWWWWWWW                W
+W W                              W
+W W                              W
+W W    WWWWWWWWWWW   W           W
+W W   WW          WWWW           W
+W W                  W           W
+W WS          WW     W           W
+W WWW     WWWWW WW   W           W
+W D       W          W           W
+W W       W         WWSSSSSSSSSSSW
+W WSWWWSWWW   WS WWWWWWWWWWWWWWWWWWWWWWWWWWW
+W WW   W     WWWWW      WW       W       W  WWWWW
+W W          W    ^WW                            WW
+WP           2       W       WWWWWWWWW            EW
+WWWWWWWSWWWWWWWWW    WW              WWWWWWWWWWWWWWW
+ W    WW             W                           W
+ W    WW             WWWWWWW                     W
+ W    W          WWWWW                           W
+ W    W              W          SWWWWWWW         W
+ W    W              W          WW  W   W        W
+SW    W              W          W       W   S    W
+WWRWWW               WW                  WWWW    W
+W    WWWWWWWWWWWW     W                          W
+W               WS    WWWWWWW                 WWWW
+W               WW    WWWW       WWWWWWWWW      W
+W                W               W             WW
+W                               WW     WWWWWWWWW 
+ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWSSSSSSW         
+                                 WWWWWWW                                 W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                         W
+                                                                        TW
+                                                WWWWWWWWWWWWWWWWWWWWWWWWWW
+          WW  WWW
+         W  WW   W
+         W WWWWWW W
+         WW    WW W
+         W T T W  W
+         W  W  WWWW
+          W    WW
+    S    WWWW W W
+   StS   WWWWW  W
+    S   WWWWWW  W
+       WWWWWWW  W
+       WWWWWWW  W
+       WWWWWWW  WWWWW
+       W   WWW  W    W
+       W     W WW     W
+        WWWWWWWWWWWWWW

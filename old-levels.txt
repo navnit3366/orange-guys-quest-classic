@@ -1,0 +1,243 @@
+; This is free and unencumbered software released into the public domain.
+; Anyone is free to copy, modify, publish, use, compile, sell, or distribute
+; this software, for any purpose, commercial or non-commercial, and by any
+; means.
+; For more information, please refer to UNLICENSE or to <http://unlicense.org>
+
+WWDWWWWWWWWWWWWWWWWWWWWWW
+W                       W
+W                       W
+WP                     EW
+WWWWWWWWWWWWWWWWWWWWWWWWW
+"Use the arrow keys to move"
+;
+                                 WWWWWWWWW
+                                W         WW
+                              WW            W
+ WDWWWWWWWWWWWWWWW WWWWWWWWWWW               WWWWWWWWWWWWWWWW
+W                 W
+WP                                WWWWW E
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW    WWWWWWWWWWWWWWWWWWWWWW
+"Press UP to jump"
+;
+                                       WWWWWWWWWWWW
+                                       W           W
+                                      W             W
+                                     W               W
+ WDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW                 WWWWWWWWWWWWWWW
+W
+WP                                                E
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW          WWWWWWWWWWWWWWWWWWW
+                                       WW         W
+                                       W          W
+                                       WWWWWWWWWWWW
+"Press UP twice to double-jump"
+;
+WWWDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP
+WWWWWWWWWWWWWWWWWWWWWWW               E
+                      W              WW
+                      WW              W
+                       W              W
+                       W               W
+                       W               W
+                       WWWWWWWWWWWWWWWWW
+"Try double-jumping in mid-air"
+;
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W            W                  WD
+W                               E
+W P                            WW
+WWWWWWWWWWWWWWWWWWWWWWWWW
+"Press BACKSPACE to restart"
+;
+                        WWWW
+                      WW    W
+                     W       W
+      WW            W        W
+WWWWWW  WWW WWWWWDWW          W
+           W        P       KW W
+WWWWWWWWWWWWWWWWWWWWW       W WW
+                   WW       8EW
+                   WWWWWWWWWWWW
+"Use keys to open doors"
+;
+                                         WWWWWWWWW
+                                        W         W
+                                        D          WWW
+                             W         W              WWW
+ WWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWW WWWW                  W
+W                                 W    P                KW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW W           WW
+                                    W     9ME8    M     WW
+                                     WWWWWWWWWWWWWWWWWWWWW
+"Watch out for giant rats!"
+;
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W                                W
+                                     W          WW                    W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW      WWWWWWWWWWWWWWWWWW  W
+W                 W        W    W      W     W        W             
+W    W       WW   W   WW   W    W     WW     WWWWWW   W          W  
+D     W  K        W  W     W    W   S WW            WSW             W
+W     WWWW           W     W    WW  W  W            WW   WWWWW SSSSSW
+W  W  W              W          W   W               W          WWWWWW
+W     W          WW  W  W    WWW   WW         W  WWWW WWW           W
+WP    WSSSSSSSSS     WSSSSS         SSWSSSS   W     W    S          W
+WWWWWWWWWWWWWWWW2SS2WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW  W
+W                WW                                                 W
+W  WWWWWWWWWWWWW    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W
+W
+WWW
+   E
+   W
+"Not all doors should be opened"
+;
+             M      M      M      M      M      M      M      M      M      M      M
+WWW7WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W                         K
+W    WWWWWWWWWWWWWWWWWWW8WW       WWWWWWW
+W                         W             W     M     W                                         W
+W  W                      6             WWWWWWWWWWWWW                               W
+W    W                    W                         W                     M
+W      W                  W                         W               WWWWWWWWWWWWW
+W        W                6                         W           W
+W                         W    WWWWW                W     W
+W            WWW          W  SSSSSSSSSSSW           WSSSSSSSSSSS
+W           WE8*       S  W WWWWWWWWWWWWWW          WWWWWWWWWWWW
+W            WWWW   WR WS W               W
+W                    W  W W                W
+W                     W  4WS                W
+W                      W  WWWW  WWW          W
+D                       W     W       W W     W S
+W                        WWWW  W      W W      WW
+W     W         W      W     W  WSSSSSW WSSSSS         W
+W                             W  WWWWWW WWWWWW        W
+W     W                        W       M     W       W
+W                               WWWWWWWWWWWWWW      W
+W                                                  W
+W                            WWWWWWWWWWWWW        W
+W              W                                 W
+W          W                                    W
+WP    W
+WWW
+"Golden keys open secret doors"
+;
+DWWW       WWWWWWWW
+W   WW  WW         W
+W     WW            W    SS   WWWWW          W
+WP    W2      W    W     WWWSSSSS            W
+WWWWR K            W  W  W  WWWWW          S W S
+W       $          W     W                 WSWSW
+WWWWWW8WWWWWW      W        M M             W W
+                     WWWWWWWWWWWWWWWW        W
+
+
+
+                                           WWWWW
+                                           W 8K*
+                                           W WWWWWWWWWWWWWWW
+                                           W W
+                                           W W
+                                           W W
+                                           W W               WWWWW
+                                           W W
+                                           W WS
+                                           W WW                        W
+                                           W WW              WWWWW
+                                           W WW
+                                           W SW        W
+                                           WEW
+                                            W           W
+
+                                        WWW           
+                                                   WWWW
+
+
+
+                                           W
+
+                           WWWWW
+
+                                       R     M
+                                       WWWWWWWWWWWWW
+;
+                    P
+                    W
+
+
+     MMMMMMMMMMMMMMM E MMMMMMMMMMMM
+DWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+;
+     P
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+ W        W
+D         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+W        KW
+W         W
+W         W
+W         W
+W         W
+W         W
+W         W
+ WWW113WWW
+W    E    W
+ WWWWWWWWW
+;
+     WWPWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+     W                                                           W
+     W                                                           W
+     W WWWWW                    WWW                              W
+     W                  WW                                       W  E
+     W           W                                               8 MW
+     W                                         WWWW       W WWWWWWWWW
+     #                               W   WW               W     MW
+     W    W                                               W WWWWWW
+     WSSSSSSSRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSW     KW
+     WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+
+
+
+
+
+
+                                               D
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW

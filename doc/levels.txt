@@ -1,0 +1,87 @@
+This is a brief guide to editing the Orange Quest level file.
+
+Levels are stored in a plaintext file (orange-levels by default) which is then
+read by the program and interpreted into level data.
+
+Although the Orange Quest game itself doesn't work on a grid-based system, the
+level generation code does.  This is why everything ends up looking so square
+in the game itself.  The reason for this is that each character in the level
+file corresponds to an item in the level, whether it's a wall, a door, a key,
+or whatever.
+
+Levels are split up first into lines, which represent y coordinates on the
+grid, and then into characters, which represent x coordinates.  What this
+means is that each line in the code can be as long as you can reasonably
+expect one to be, but the game will not start placing items under that line
+until you start a new line in the text file.
+
+A semicolon will mark the beginning of a comment line, meaning that any text
+on a line that is preceded by a semicolon will be ignored.
+A line that consists of ONLY a semicolon will mark the end of a level.  An
+empty line won't do because the level generator is expecting empty lines and
+many of the existing levels use them already.  If there is any character
+before or after the first semicolon, even a space, the game will assume that it
+is a comment line.
+
+The following symbols are recognized as valid by the level generator:
+ MkSPKREATt12346789!@#$^&*(D
+
+Every level must contain *one* P, *one* E or A, and at least one W.
+
+P marks the starting point for the Player character.
+
+E marks the Exit.
+A marks a special Exit (really it's just a different sprite) for the end game.
+
+W marks a Wall.
+
+M marks a Monster.
+k marks the rat King, which is a special monster.
+
+S marks a set of Spikes.
+
+K marks a Key.
+
+R marks a golden key (originally a Red key).
+
+T marks a Teleporter
+t marks the destination that a teleporter will send you to.
+
+Regardless of how many teleport destinations exist in a level, only one will
+ever be used, namely the first one that the game sees when going through the
+array of objects in the level.  Confusingly, this appears to be the last
+teleport destination which appears when scanning the level file, even though I
+didn't code it this way.
+
+D marks a secret level exit, which are used during Debugging but can also
+serve as a nifty secret secondary exit.
+
+Confusingly, the Debug exit is referred to in the code as `tele_rect`,
+suggesting that it's the same as the teleporter, whereas the teleporters are
+called `Portal`s.  Do not confuse these, as they are not the same.
+
+To add a message to the level data, place the message in-between two
+double-quotes (e.g. "This is a level message") and the message (without the
+quotes) will be displayed at the top of the screen when the level starts.
+
+12346789 and the symbols !@#$^&*( produce doors.  Which number or symbol you
+choose affects how the door will open.  The numbers 12346789 mark regular
+doors; the symbols !@#$^&*( mark hidden doors.  Note that neither 5 nor % mark
+doors, as these doors would not open.
+
+The resting place of doors after opening, given 0 as their starting point:
+
+       8/*
+        |
+    7/& | 9/(
+      \ | /
+       \|/        Notice that the numbers correspond to directions on the
+ 4/$----0----6/^  number pad, and the symbols correspond to the symbols which
+       /|\        share the same number on the number line.
+      / | \
+    1/! | 3/#
+        |
+       2/@
+
+Until Orange Guy's Quest becomes more complex as a game, that's all there is
+to the levels.  Have fun.
